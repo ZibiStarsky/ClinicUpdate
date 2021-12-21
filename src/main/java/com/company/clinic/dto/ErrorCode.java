@@ -1,0 +1,14 @@
+package com.company.clinic.dto;
+
+public enum ErrorCode {
+    DOCTOR_ALREADY_EXISTS,
+    DOCTOR_ALREADY_FIRED,
+    EMAIL_SENDING_ERROR,
+    ENTITY_NOT_FOUND,
+    PATIENT_ALREADY_EXISTS,
+    TOKEN_EXPIRED,
+    USER_ALREADY_EXISTS,
+    VISIT_ERROR,
+    VALIDATION_ERROR,
+    UNKNOWN;
+}
